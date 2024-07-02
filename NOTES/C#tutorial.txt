@@ -5,3 +5,19 @@ char - stores single characters, such as 'a' or 'B'. Char values are surrounded 
 string - stores text, such as "Hello World". String values are surrounded by double quotes
 bool - stores values with two states: true or false
 
+Example of variable creation:
+int myNum = 5;
+double myDoubleNum = 5.99D;
+char myLetter = 'D';
+bool myBool = true;
+string myText = "Hello";
+
+    EG:
+    string name = "sarjak";
+    Console.WriteLine(name);
+
+Display Variables:
+string name = "John";
+Console.WriteLine("Hello " + name);
+.....................................................................................................
+

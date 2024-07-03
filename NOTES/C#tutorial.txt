@@ -23,3 +23,11 @@ Console.WriteLine("Hello " + name);
 
 .....................................................................................................
 
+IF / ELSE statement:
+
+if:
+syntax: if (condition) 
+{
+  // block of code to be executed if the condition is True
+}
+

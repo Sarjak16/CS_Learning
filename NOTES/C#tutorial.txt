@@ -23,11 +23,51 @@ Console.WriteLine("Hello " + name);
 
 .....................................................................................................
 
-IF / ELSE statement:
-
-if:
+if statement:
 syntax: if (condition) 
 {
   // block of code to be executed if the condition is True
 }
 
+Else statement:
+Syntax:
+if (condition)
+{
+  // block of code to be executed if the condition is True
+} 
+else 
+{
+  // block of code to be executed if the condition is False
+}
+
+
+ELSE IF statement:
+if (condition1)
+{
+  // block of code to be executed if condition1 is True
+} 
+else if (condition2) 
+{
+  // block of code to be executed if the condition1 is false and condition2 is True
+} 
+else
+{
+  // block of code to be executed if the condition1 is false and condition2 is False
+}
+
+.............................................................................................................................
+
+SWITCH statement:
+
+switch(expression) 
+{
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+    break;
+}
